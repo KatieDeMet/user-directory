@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import CardList from './CardList';
+import {useState} from "react"
+import Modal from "./Modal"
 
 function App() {
+  const [modalIsOpen, setModalIsOpen] = useState(false)
+
+  const openModal = () => {
+    setModalIsOpen(true)
+  }
+
+  const closeModal = () => {
+    setModalIsOpen(false)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Home</h1>
       </header>
+      <main>
+        {modalIsOpen ? <Modal isOpen={modalIsOpen} closeModal={closeModal} /> : <CardList openModal={openModal} closeModal={closeModal} />}
+      </main>
     </div>
   );
 }

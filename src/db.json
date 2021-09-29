@@ -1,0 +1,41 @@
+[
+   {    "id": 1, 
+        "name": "Jennifer Crowley",
+        "from": "Paris, France",
+        "title": "CEO",
+        "employer": "Perfume Co.",
+        "movies": ["Gone with the Wind", "Clueless", "Sleepless in Seattle"]
+   }, 
+   {
+        "id": 2,
+        "name": "Jon Snow",
+        "from": "The North",
+        "title": "Watch Captain",
+        "employer": "The Watch",
+        "movies": ["Game of Thrones", "Robinhood", "300"]
+   },
+   {
+        "id": 3,
+        "name": "Huckleberry Fin",
+        "from": "Mississippi",
+        "title": "Prankster",
+        "employer": "Some guy",
+        "movies": ["Aristrocrats", "Aladdin", "Lady and the Tramp"]
+    },
+    {
+        "id": 4,
+        "name": "Janet Jackson",
+        "from": "Palm Beach, FL",
+        "title": "Secretary",
+        "employer": "Enterprize",
+        "movies": ["Flipper", "Free Willy", "Homeward Bound"]
+    },
+    {
+        "id": 5,
+        "name": "Michael Jackson",
+        "from": "Chicago, IL",
+        "title": "Singer",
+        "employer": "Sony",
+        "movies": ["Sound of Music", "Catz", "High School Musical"]
+    }
+]
